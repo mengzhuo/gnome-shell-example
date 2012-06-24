@@ -1,0 +1,7 @@
+{
+"uuid": "gnome-shell-example@mengzhuo.org",
+"shell-version": ["3.4"],
+"name": "Example",
+"url": "http://mengzhuo.org/gnome-shell-example",
+"description": "This is an EXAMPLE for gnome-shell extension"
+}
