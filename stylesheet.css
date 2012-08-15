@@ -1,1 +1,7 @@
 .example{color:red;}
+.example_icon{
+    background-image: url(pic/applications-science-symbolic.svg);
+    background-size: contain;
+    width:26px;
+    height:26px;
+}

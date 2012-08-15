@@ -28,7 +28,11 @@ ExampleIndicator.prototype = {
                                     icon_name: 'face-smile',
                                     icon_size: 26
                                     });
-        this.actor.add_actor(this._icon);
+        //this.actor.add_actor(this._icon);
+
+        this._css_icon = new St.Bin({ style_class: "example_icon" });
+        this.actor.add_actor(this._css_icon);
+
         
         Main.panel._rightBox.add_actor(this.actor);
     },
